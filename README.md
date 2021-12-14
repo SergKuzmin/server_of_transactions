@@ -22,4 +22,4 @@
 Через некоторое врея документация swagger к серверу будет доступна по 
 пути http://0.0.0.0:8000/playground/
 
-![alt-text](../../../PycharmProjects/server_of_transactions/res/swagger_doc.png "optional-title")
+![alt-text](./res/swagger_doc.png "optional-title")
