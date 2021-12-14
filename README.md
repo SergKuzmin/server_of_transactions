@@ -8,3 +8,18 @@
 Выполнить сервис на базе DRF с СУБД postgresql.
 Покрыть код автотестами, юнит тестами и интеграционными тестами (По возможности)
 Использовать Docker.
+
+# Запустить сервер
+Склонировать проэкт, затем запустить сборку образа с Django 
+    
+    cd deploy
+    docker-compose build
+
+После того как образ собрался, запускаем docker-compose
+
+    docker-compose up -d
+
+Через некоторое врея документация swagger к серверу будет доступна по 
+пути http://0.0.0.0:8000/playground/
+
+![alt-text](../../../PycharmProjects/server_of_transactions/res/swagger_doc.png "optional-title")
